@@ -22,7 +22,7 @@ async function githubWebhookHandler(request) {
       return simpleResponse(403, "Wrong password, try again :P")
     }
 
-    return await sendText(`${sender_name} casted spell: ${action} onto your repo ${repo_name}`)
+    return await sendText(`${sender_name} has made a '${action}' onto your repo '${repo_name}'`)
 
   } catch (e) {
     return simpleResponse(
