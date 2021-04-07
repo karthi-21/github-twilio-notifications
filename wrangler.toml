@@ -1,6 +1,6 @@
 name = "github-twilio-notifications"
-type = "javascript"
-account_id = ""
+type = "webpack"
+account_id = "ec9d03334afb5a33b8c7ae5ad2322486"
 workers_dev = true
 route = ""
 zone_id = ""
